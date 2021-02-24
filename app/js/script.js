@@ -5,7 +5,6 @@ const overlay = document.querySelector('.overlay');
 const fadeElems = document.querySelectorAll('.has-fade');
 
 header.addEventListener("click", function () {
-  console.log("click header");
   if (header.classList.contains("open")) {
     body.classList.remove('noscroll');
     header.classList.remove("open");
