@@ -94,6 +94,7 @@ body {
   color: #9698a6;
   line-height: 1.3;
   min-height: 300vh;
+  overflow-x: hidden;
 }
 
 @media (min-width: 64em) {
@@ -629,5 +630,14 @@ button:hover, .button:hover {
 
 .article__description {
   font-size: 0.8125rem;
+}
+
+.footer {
+  background-color: #2d314d;
+  color: white;
+}
+
+.footer a {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
